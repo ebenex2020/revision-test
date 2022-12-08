@@ -37,7 +37,7 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-links,
@@ -680,7 +680,6 @@ input::placeholder {
 .footer-icon {
   width: 2.4rem;
   height: 2.4rem;
-  color: #767676;
 }
 
 .footer-address {
