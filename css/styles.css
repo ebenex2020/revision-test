@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
   color: #333;
   line-height: 1;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 /* ********************************* */
@@ -28,7 +30,10 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 4.8rem;
+
+  position: relative;
 }
+
 .logo {
   height: 2.2rem;
 }
@@ -67,6 +72,22 @@ body {
 .main-nav-links.main-nav-links--last:hover,
 .main-nav-links.main-nav-links--last:active {
   background-color: #cf711f;
+}
+
+.mobile-nav {
+  border: none;
+  background: none;
+  display: none;
+}
+
+.mobile-nav-icon {
+  width: 4.8rem;
+  height: 4.8rem;
+  color: #333;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
 }
 
 /* ********************************* */
@@ -593,6 +614,7 @@ body {
     ),
     url(../img/eating.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .cta-form {
@@ -640,7 +662,7 @@ input::placeholder {
 
 .cta-form *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.104);
+  box-shadow: 0 0 0 0.8rem rgba(149, 74, 9, 0.327);
 }
 
 /* ********************************* */
