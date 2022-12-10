@@ -264,6 +264,10 @@
     grid-row: 5;
   }
 
+  .app-img {
+    transform: translateY(2.4rem);
+  }
+
   .testimonial-imgs {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -276,5 +280,9 @@
   .cta-img {
     height: 40rem;
     grid-row: 1;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
   }
 }
